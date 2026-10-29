@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savistha Selvaraj | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">SS<span>.</span></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="welcome">HELLO, WELCOME TO MY PORTFOLIO!</p>
+                <h1>Hi, I'm <span>Savistha Selvaraj</span></h1>
+                <h2>Future Software Engineer 💻</h2>
+                <p>
+                    I am a first-year B.Tech IT student passionate
+                    about web design and programming. I love learning
+                    new skills and exploring technology.
+                </p>
+                <a href="#skills" class="button">Explore My Skills</a>
+                <a href="#contact" class="button secondary">Contact Me</a>
+            </div>
+
+            <div class="profile">
+                <div class="circle">SS</div>
+                <h2>Savistha Selvaraj</h2>
+                <p>B.Tech Information Technology</p>
+                <p class="tagline">Learning • Creating • Growing</p>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <p class="label">GET TO KNOW ME</p>
+            <h2 class="heading">About Me ✨</h2>
+            <div class="about-card">
+                <p>
+                    Hello! I am Savistha Selvaraj, a first-year
+                    B.Tech Information Technology student at
+                    Mount Zion College of Engineering and Technology,
+                    Pudukkottai, Tamil Nadu.
+                </p>
+                <p>
+                    I am passionate about web design and programming.
+                    I am learning HTML, CSS, Python and C programming.
+                </p>
+                <p>
+                    My goal is to work in a leading IT company and
+                    become a skilled software professional.
+                </p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section skills-section">
+            <p class="label">WHAT I AM LEARNING</p>
+            <h2 class="heading">My Skills 🚀</h2>
+
+            <div class="skills-grid">
+                <div class="skill html">
+                    <div class="symbol">5</div>
+                    <h3>HTML</h3>
+                    <p>Creating webpage structure</p>
+                </div>
+
+                <div class="skill css">
+                    <div class="symbol">#</div>
+                    <h3>CSS</h3>
+                    <p>Designing beautiful webpages</p>
+                </div>
+
+                <div class="skill python">
+                    <div class="symbol">Py</div>
+                    <h3>Python</h3>
+                    <p>Currently learning</p>
+                </div>
+
+                <div class="skill clang">
+                    <div class="symbol">C</div>
+                    <h3>C Programming</h3>
+                    <p>Learning programming basics</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <p class="label">MY LEARNING JOURNEY</p>
+            <h2 class="heading">My Projects 🌟</h2>
+
+            <div class="project-card">
+                <div class="project-symbol">&lt;/&gt;</div>
+                <h3>My Personal Portfolio</h3>
+                <p>
+                    My first website project, created to introduce
+                    myself and practise HTML and CSS.
+                </p>
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+            </div>
+
+            <p class="note">
+                More projects will be added as I continue learning!
+            </p>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section education-section">
+            <p class="label">MY ACADEMIC JOURNEY</p>
+            <h2 class="heading">Education 🎓</h2>
+
+            <div class="education-card">
+                <span class="study-label">CURRENTLY STUDYING</span>
+                <h3>B.Tech — Information Technology</h3>
+                <h4>First-Year Student</h4>
+                <p>
+                    Mount Zion College of Engineering and Technology
+                </p>
+                <p>Pudukkottai, Tamil Nadu</p>
+            </div>
+        </section>
+
+        <!-- CAREER GOAL -->
+        <section class="section goal">
+            <p class="label">MY DREAM</p>
+            <h2>My Career Goal 💜</h2>
+            <p>
+                I aspire to work in a leading IT company, improve my
+                programming skills, and create useful digital experiences.
+            </p>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <p class="label">LET'S CONNECT</p>
+            <h2 class="heading">Contact Me 💌</h2>
+
+            <div class="contact-card">
+                <p>Have a question? Send me a message!</p>
+
+                <form action="mailto:savisthaselvaraj15@gmail.com"
+                      method="post" enctype="text/plain">
+
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name"
+                           placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="Email"
+                           placeholder="Enter your email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="Message" rows="5"
+                              placeholder="Write your message..."
+                              required></textarea>
+
+                    <button type="submit" class="button">
+                        Send Message 💌
+                    </button>
+                </form>
+
+                <p class="email">
+                    Email: savisthaselvaraj15@gmail.com
+                </p>
+            </div>
+        </section>
+
+        <!-- RESUME -->
+        <section class="section resume">
+            <h2>My Resume 📄</h2>
+            <p>Add your own CV file to enable the download button.</p>
+            <a href="cv.pdf" download class="button">Download CV</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Savistha Selvaraj</p>
+        <p>Made with 💜 using HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
